@@ -1,0 +1,30 @@
+HTML TAGS:-
+
+1. headings
+    h1, h2, h3, h4, h5, h6
+
+2. div
+
+3. button
+
+/*---------------------------------------------------------------------------*/
+CSS PROPERTIES:-
+
+1. Boilderplate
+
+2. class and id selectors
+    - class selector "."
+    - id selector "#"
+    - universal selector "*"
+
+3. Box model
+    - margin
+    - border
+    - padding
+    - content
+    - width
+    - height
+    - box-sizing
+    - border-radius
+
+/*---------------------------------------------------------------------------*/
