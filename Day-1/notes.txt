@@ -19,12 +19,44 @@ CSS PROPERTIES:-
 
 3. Box model
     - margin
-    - border
-    - padding
-    - content
+        - top
+        - right
+        - bottom
+        - left
+        - inline
+        - block
+
+    - padding              // Same for margin as well
+        - top
+        - right
+        - bottom
+        - left
+        - inline
+        - block
+
     - width
     - height
     - box-sizing
+    - border
     - border-radius
+    - background-color
+    - color
+    - cursor
 
 /*---------------------------------------------------------------------------*/
+
+SHORTCUTS:-
+
+1. SHIFT + "!"  = HTML boilerplate
+2. "css" + "enter" = CSS boilerplate
+3. "ctrl + /" = comment/uncomment code
+4. "ctrl + s" = save file
+5. "ctrl + d" = copy line down
+
+/*---------------------------------------------------------------------------*/
+
+EXTENSIONS:-
+
+1. Live Server
+2. Prettier
+3. Live preview
