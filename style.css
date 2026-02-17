@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.box-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.box-2 {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-color: rgb(148, 140, 140);
+  border: 20px solid white;
+}
+
+button {
+  padding-inline: 15px;
+  padding-block: 7px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
