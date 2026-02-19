@@ -1,0 +1,32 @@
+HTML TAGS:-
+
+1. sup
+2. sub
+3. video
+4. audio
+5. iframe
+
+5. Sementing tags
+    - header
+    - nav
+    - main
+    - section
+    - footer
+    - aside
+    - p
+ SEO
+
+/*---------------------------------------------------------------------------*/
+CSS PROPERTIES:-
+
+units:-
+1. px
+2. em
+3. rem
+4. vh
+5. vw
+6. %
+
+
+/*---------------------------------------------------------------------------*/
+
