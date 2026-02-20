@@ -1,0 +1,61 @@
+
+HTML TAGS:-
+
+1. audio
+    - controls
+2. iframe
+    - src
+    - height
+    - width
+    - frameborder
+
+- copy embed code from youtube and paste it in the body of html file to embed a video.
+
+/*
+These block embedding:
+    1. LinkedIn
+    2. Google (homepage)
+    3. Facebook
+    4. Instagram
+    5. Twitter (main site)
+    6. Banking websites
+    7. Most login pages
+
+How to check if a website allows embedding or not?
+    1. Open the website in a new tab
+    2. Right click and select "inspect"
+    3. Open network tab and refresh the page
+    4. Either go in the other tab or all and search for "X-Frame-Options"
+    5. If the value is "sameorigin" or "deny", then the website does not allow embedding. If the value is "allow", then the website allows embedding.
+ */
+
+3. embed
+    - src
+    - height
+    - width
+    - frameborder
+
+- <iframe> = Opening another website inside your website
+- <embed> = Opening a file inside your website
+/*---------------------------------------------------------------------------*/
+CSS PROPERTIES:-
+
+Absolute units:-
+1. px
+2. cm
+3. mm
+4. in
+
+Relative units:-
+1. em
+2. rem
+3. vh
+4. vw
+
+
+/*---------------------------------------------------------------------------*/
+
+
+If time remains, we will cover the following properties:-
+1. display
+2. position
