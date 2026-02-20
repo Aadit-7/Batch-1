@@ -37,6 +37,7 @@ How to check if a website allows embedding or not?
 
 - <iframe> = Opening another website inside your website
 - <embed> = Opening a file inside your website
+
 /*---------------------------------------------------------------------------*/
 CSS PROPERTIES:-
 
@@ -51,10 +52,9 @@ Relative units:-
 2. rem
 3. vh
 4. vw
-
+5. %
 
 /*---------------------------------------------------------------------------*/
-
 
 If time remains, we will cover the following properties:-
 1. display
