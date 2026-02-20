@@ -1,0 +1,49 @@
+
+HTML TAGS:-
+
+- img tag and some css properties related to it
+    - background-size (cover, contain, fill, none)
+    - background-position (center, top, bottom, left, right)
+    - object-fit  (cover, contain, fill, none)
+
+- how to make cicrle usign border-radius property
+
+
+Task-1
+
+    - required tags
+        - div
+        - hr ,br
+        - img
+        - heading tags (h1 to h6)
+        - paragraph tag (p)
+        - list tags (ul, ol, li)
+        - center
+        - button
+        - anchor tag (a)
+
+    - css properties
+        - background-color
+        - color
+        - font-size , font-family, font-weight
+        - margin
+            - margin-top, margin-bottom, margin-left, margin-right, inline, block
+        - padding
+            - padding-top, padding-bottom, padding-left, padding-right, inline, block
+        - border
+        - border-radius
+        - width, height
+        - box-sizing
+        - cursor
+        - text-decoration
+
+/*---------------------------------------------------------------------------*/
+CSS PROPERTIES:-
+
+1. Flexbox
+    - display: flex;
+    - flex-direction: row | column;
+    - justify-content: flex-start | flex-end | center | space-between | space-around;
+    - align-items: flex-start | flex-end | center | stretch;
+
+2. Grid
