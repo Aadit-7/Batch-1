@@ -38,12 +38,3 @@ Task-1
         - text-decoration
 
 /*---------------------------------------------------------------------------*/
-CSS PROPERTIES:-
-
-1. Flexbox
-    - display: flex;
-    - flex-direction: row | column;
-    - justify-content: flex-start | flex-end | center | space-between | space-around;
-    - align-items: flex-start | flex-end | center | stretch;
-
-2. Grid
