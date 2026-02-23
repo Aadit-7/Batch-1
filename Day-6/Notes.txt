@@ -1,0 +1,25 @@
+CSS PROPERTIES:-
+
+1. inline , block , inline-block
+    - inline:
+        -does not start on a new line and only takes up as much width as necessary.
+        - we can not set width and height for inline elements.
+        - eg: span, a, img
+
+    - block:
+        - starts on a new line and takes up the full width available.
+        - we can set width and height for block elements.
+        - eg: div, p, h1-h6, sementic tags
+
+    - inline-block:
+        - behaves like inline i.e. dont start on a new line but allows setting width and height.
+        - we can set width and height for inline-block elements.
+
+
+2. Flexbox
+    - display: flex;
+    - flex-direction: row | column | row-reverse | column-reverse;
+    - justify-content: flex-start | flex-end | center | space-between | space-around;
+    - align-items: flex-start | flex-end | center
+
+
