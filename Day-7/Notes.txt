@@ -1,0 +1,5 @@
+CSS PROPERTIES:-
+
+1. white-space
+    - nowrap
+
