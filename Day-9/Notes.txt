@@ -31,6 +31,10 @@ CSS PROPERTIES:-
     static
         - default position
 
+    absolute
+        - make that element position based on the nearest positioned ancestor (not static)
+        - if there is no positioned ancestor, it will be based on the initial containing block (usually the viewport)
+
     relative
         - make child element position based on this element
 
