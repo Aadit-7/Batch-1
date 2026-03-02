@@ -1,1 +1,1 @@
-This is a batch folder where I am adding daily codes and notes
+This is a batch folder where I am adding daily codes and notes.
