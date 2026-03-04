@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  /* background-color: red; */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3vw;
+  padding-block: 1vw;
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  font-size: 3vw;
+  color: #ff8578;
+}
+
+nav {
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+}
+nav i {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3vw;
+  display: none;
+}
+
+.section-1 {
+  height: calc(100% - 80px);
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  overflow: hidden;
+}
+
+.section-1 .left {
+  height: 100%;
+  width: 60%;
+  /* background-color: green; */
+  padding: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vw;
+}
+
+.section-1 .left h1 {
+  font-size: 4.5vw;
+  line-height: 4.6vw;
+  text-transform: uppercase;
+}
+.section-1 .left h1 span {
+  color: #ff8578;
+}
+.section-1 .left p {
+  font-size: 1.2vw;
+  /* background-color: red; */
+  width: 80%;
+}
+.section-1 .left button {
+  font-size: 1.3vw;
+  font-weight: 200;
+  padding-inline: 1.5vw;
+  padding-block: 0.75vw;
+  outline: none;
+  border: none;
+  border-radius: 0.75vw;
+  cursor: pointer;
+  background-color: #ff8578;
+}
+
+.section-1 .right {
+  height: 100%;
+  width: 40%;
+  background-color: blue;
+}
+.section-1 .right img {
+  height: 100%;
+  width: 100%;
+}
+
+/* mobile screen */
+@media (max-width: 600px) {
+  nav a {
+    display: none;
+  }
+  nav i {
+    display: block;
+    font-size: 5vw;
+  }
+}

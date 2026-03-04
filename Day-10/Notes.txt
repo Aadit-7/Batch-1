@@ -1,0 +1,15 @@
+CSS PROPERTIES:-
+
+media queries
+    - used to apply different styles for different media types/devices
+    - syntax: @media media-type and (condition) { /* CSS rules */ }
+    - example: @media screen and (max-width: 600px) { /* CSS rules for screens smaller than 600px */ }
+
+
+Key approach to responsive design:
+
+    - CSS Flexbox
+    - CSS units
+    - Responsive typography i.e. using relative units like em, rem, vw, vh instead of fixed units like px
+    - Mobile-first approach
+    - Flexible images and media

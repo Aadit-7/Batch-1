@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: black;
   color: white;
@@ -23,66 +25,40 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  /* position: relative; */
-}
-
-/* .container {
-  height: 80%;
-  width: 80%;
-  background-color: gray;
-  padding: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 10px;
-  overflow: auto;
-  flex-wrap: wrap;
-}
-
-.container::-webkit-scrollbar {
-  width: 10px;
-}
-.container::-webkit-scrollbar-thumb {
-  background-color: red;
-  border-radius: 10px;
-}
-
-.card {
-  background-color: lightseagreen;
-  width: 220px;
-  padding: 50px;
-  flex-grow: 1;
-} */
-
-main {
-  width: 80%;
-  background-color: gray;
-  padding: 10px;
   position: relative;
 }
 
+.main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(69, 97, 96);
+  padding: 20px;
+  margin-top: 50px;
+  /* position: relative; */
+}
+
+/* Keep them in normal flow */
 .box1 {
   height: 200px;
   width: 200px;
-  background-color: red;
-  position: fixed;
-  top: 0;
-  z-index: 1;
+  background-color: rgb(221, 40, 40);
+  position: absolute;
+  right: 0;
 }
 
 .box2 {
   height: 200px;
   width: 200px;
-  background-color: green;
-  position: absolute;
-  top: 0;
-  z-index: 5;
+  background-color: rgb(43, 221, 40);
+  position: fixed;
+  left: 50%;
+  z-index: 3;
 }
 
 .box3 {
   height: 200px;
-  width: 200px;
-  background-color: blue;
+  background-color: rgb(40, 134, 221);
+
   position: sticky;
-  top: 0;
+  top: 0; /* THIS is the key */
 }
