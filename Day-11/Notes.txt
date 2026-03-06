@@ -1,0 +1,37 @@
+CSS PROPERTIES:-
+
+1.Transitions:-
+
+- transition: property duration timing-function delay;
+- transform: translateX(100px);
+- transform: rotate(45deg);
+- transform: scale(1.5);
+
+- perspective: 500px;
+    - To parennt element to give a 3D perspective to child elements.
+
+- transform-origin:
+    center; To specify the point around which a transformation is applied.
+
+- hover:-
+    :hover {
+    background-color: yellow;
+    }
+
+- active:-
+    :active {
+    background-color: red;
+    }
+
+/*---------------------------------------------------------------------------*/
+
+
+2. Animations : @keyframes {}:-
+
+Syntax:- animation: moveBox 2s ease 1s infinite;
+
+- moveBox:-  animation name
+- 2s:- duration of the animation
+- ease:- timing function
+- 1s:- delay before the animation starts
+infinite:- to repeat the animation indefinitely
