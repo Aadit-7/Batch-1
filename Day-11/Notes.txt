@@ -1,6 +1,6 @@
 CSS PROPERTIES:-
 
-1. Psudeo classes 
+1. Psudeo classes
 
     - hover:-
         :hover {
@@ -17,40 +17,9 @@ CSS PROPERTIES:-
 2.Transitions:-
 
     - transition: property duration timing-function delay;
+
     - transform: translateX(100px);
     - transform: scale(1.5);
     - transform: rotate(45deg);
     - transform: skew(45deg)
 
-    -Another method to center your div
-        /*
-        osition: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-        */
-
-    - perspective: 500px;
-        - To parennt element to give a 3D perspective to child elements.
-        - Create a div with image inside that and give desired height and width.
-        - give perspective to the parent and the use hover property on the child
-        and use rotate inside that to see the effect.
-
-    - transform-origin:
-        - center; To specify the point around which a transformation is applied.
-        - This property is given to the element which is being transformed to see the effect of transformation
-          from a specific point.
-
-/*---------------------------------------------------------------------------*/
-
-3. Animations : @keyframes {}:-
-
-Syntax:- animation: moveBox 2s ease 1s infinite;
-
-- moveBox:-  animation name
-- 2s:- duration of the animation
-- ease:- timing function
-- 1s:- delay before the animation starts
-infinite:- to repeat the animation indefinitely
-
-* animation: positionX 2s infinite alternate *
