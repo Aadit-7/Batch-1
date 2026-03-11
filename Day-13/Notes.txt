@@ -1,0 +1,42 @@
+1. box shadow
+      - box-shadow: 10px 20px 15px 5px black ;
+
+        10px :- x-axis
+        20px :- y-axis
+        15px :- blur radius
+        5px  :- spread radius
+        black:- shadow color
+
+2. text shadow
+    - text-shadow: 5px 5px 5px red;
+
+        5px → shadow moves right
+        5px → shadow moves down
+        5px → blur effect
+        gray → shadow color
+
+3. clamp
+    - clamp(minimum, preferred, maximum)
+
+        minimum → the smallest value allowed
+        preferred → the flexible value (usually vw, %, etc.)
+        maximum → the largest value allowed
+
+    *Most of the time we are using the rem for min and max and vw for the
+    prefered valuse because it is more responsivness that using same unit for all 3 parameters*
+
+4. background image
+
+5. :nth-child
+    - The :nth-child() is a CSS pseudo-class selector used to
+      select elements based on their position inside a parent
+      element.
+
+6. :has and :not
+
+    .box:has(.card:hover) .card:not(:hover) {
+     scale: 0.9;
+    }
+
+    - remind it as When the .box contains a .card that is being hovered,
+      apply the scale: 0.9 style to all other .card elements that are not hovered.
