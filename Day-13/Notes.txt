@@ -32,11 +32,3 @@
       select elements based on their position inside a parent
       element.
 
-6. :has and :not
-
-    .box:has(.card:hover) .card:not(:hover) {
-     scale: 0.9;
-    }
-
-    - remind it as When the .box contains a .card that is being hovered,
-      apply the scale: 0.9 style to all other .card elements that are not hovered.

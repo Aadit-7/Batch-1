@@ -1,9 +1,4 @@
-1. :nth-child
-    - The :nth-child() is a CSS pseudo-class selector used to
-      select elements based on their position inside a parent
-      element.
-
-2. :has and :not
+1. :has and :not
 
     .box:has(.card:hover) .card:not(:hover) {
      scale: 0.9;
@@ -12,9 +7,9 @@
     - remind it as When the .box contains a .card that is being hovered,
       apply the scale: 0.9 style to all other .card elements that are not hovered.
 
-3.::before and ::after4
+2. ::before and ::after
 
-4. Project with flex wrap and shrink
+3. Project with flex grow
 
 
 
