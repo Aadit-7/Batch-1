@@ -1,0 +1,162 @@
+1. What are data types in JavaScript?
+
+    Data types define what kind of data a variable holds.
+
+    Main types:
+
+    i. String → text
+        let name = "Aadit";
+
+    ii. Number → numbers
+        let age = 23;
+
+    iii. Boolean → true/false
+        let isStudent = true;
+
+    iv. Null → empty value (intentionally)
+        let x = null;
+
+    v. Undefined → value not assigned
+        let y;
+
+    vi. Object → collection of data
+        let person = { name: "Aadit", age: 23 };
+
+    vii. Array → list of values
+        let arr = [1, 2, 3];
+
+
+2. How to see output?
+
+    console.log   → Normal output
+    console.table → Table format data
+    console.warn  → Warning message
+    console.error → Error message
+    console.clear → Clears console
+
+
+3. Operators in JavaScript
+
+    Operators are used to perform operations on values.
+
+    Types:
+
+    i. Arithmetic Operators:
+
+    Addition (+)
+    Subtraction (-)
+    Multiplication (*)
+    Division (/)
+    Modulus (%)
+
+
+4. Conditional Statements (Decision Making)
+
+    Used to run code based on conditions.
+
+    i. if statement:
+
+        let age = 18;
+        if (age >= 18) {
+        console.log("You can vote");
+        }
+
+    ii. if-else:
+        let age = 16;
+        if (age >= 18) {
+        console.log("Adult");
+        } else {
+        console.log("Minor");
+        }
+
+    iii. else if:
+        let marks = 75;
+        if (marks >= 90) {
+        console.log("A");
+        } else if (marks >= 60) {
+        console.log("B");
+        } else {
+        console.log("C");
+        }
+
+
+5. Functions in JavaScript
+
+    Functions are reusable blocks of code.
+
+    Example:
+        function greet() {
+        console.log("Hello Aadit");
+        }
+        greet();
+
+    With parameters:
+        function add(a, b) {
+        return a + b;
+        }
+
+    console.log(add(2, 3)); // 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔥 Fresher Interview Questions (Very Important)
+
+1. What is the difference between == and ===?
+2. What is a function?
+3. What is the return keyword?
+4. What are operators in JavaScript?
+5. What is an if-else statement?
+6. What is the DOM?
+7. What is an event in JavaScript?
+8. What is the difference between function and variable?
+9. What is the use of return in functions?
+10. What is a parameter and argument?
+11. What is short-circuiting in logical operators?
+12. What happens if we don’t use return in a function?
+13. What is NaN in JavaScript?
+14. What is typeof operator?
+15. What is the difference between null, undefined, and NaN?
+
+
+
+🎯 Practice Tasks (Do These)
+
+1. Write a program to check if a number is even or odd
+2. Write a function to add two numbers
+3. Check if a number is greater than 50
+4. Print numbers from 1 to 10 using console.log
+5. Create a button and show alert on click
+
+
