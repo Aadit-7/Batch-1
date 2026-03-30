@@ -51,7 +51,7 @@
 
     ii. Assignment Operators / Shorthand Operators
 
-        += (Add and assign)  
+        += (Add and assign)
         -= (Subtract and assign)
         *= (Multiply and assign)
         /= (Divide and assign)
@@ -99,54 +99,6 @@
                     a--
                 b. pre increment
                     --a
-
-4. Conditional Statements (Decision Making)
-
-    Used to run code based on conditions.
-
-    i. if statement:
-
-        let age = 18;
-        if (age >= 18) {
-        console.log("You can vote");
-        }
-
-    ii. if-else:
-        let age = 16;
-        if (age >= 18) {
-        console.log("Adult");
-        } else {
-        console.log("Minor");
-        }
-
-    iii. else if:
-        let marks = 75;
-        if (marks >= 90) {
-        console.log("A");
-        } else if (marks >= 60) {
-        console.log("B");
-        } else {
-        console.log("C");
-        }
-
-
-5. Functions in JavaScript
-
-    Functions are reusable blocks of code.
-
-    Example:
-        function greet() {
-        console.log("Hello Aadit");
-        }
-        greet();
-
-    With parameters:
-        function add(a, b) {
-        return a + b;
-        }
-
-    console.log(add(2, 3)); // 5
-
 
 
 
