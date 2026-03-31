@@ -95,9 +95,9 @@
 
         b. Decrement:
             --
-            a. post increment
+            a. post decrement
                     a--
-                b. pre increment
+                b. pre decrement
                     --a
 
 
