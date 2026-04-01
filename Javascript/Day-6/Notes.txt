@@ -1,36 +1,4 @@
-1. Conditional Statements (Decision Making)
-
-    Used to run code based on conditions.
-
-    i. if statement:
-
-        let age = 18;
-        if (age >= 18) {
-            console.log("You can vote");
-        }
-
-    ii. if-else:
-
-        let age = 16;
-        if (age >= 18) {
-            console.log("Adult");
-        } else {
-            console.log("Minor");
-        }
-
-    iii. else if:(if else if ladder)
-
-        let marks = 75;
-        if (marks >= 90) {
-            console.log("A");
-        } else if (marks >= 60) {
-            console.log("B");
-        } else {
-            console.log("C");
-        }
-
-
-2. Loops in JavaScript
+1. Loops in JavaScript
 
     Loops are used to repeat a block of code multiple times.
 
@@ -42,7 +10,6 @@
 
             Example:
             let i;
-            console.log(i);       // undefined
             for (i = 0; i < 5; i++) {
                 console.log(i);
             }
@@ -70,7 +37,7 @@
             } while (i < 5);
 
 
-3. Functions in JavaScript
+2. Functions in JavaScript
 
    - Functions are reusable blocks of code.
 
