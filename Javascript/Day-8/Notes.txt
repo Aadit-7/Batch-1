@@ -56,11 +56,27 @@
         console.log(add(2, 3)); // 5
 
 
-declaration
-defination
-calling
+3. Math functions
+
+    . Math.ceil()
+    . Math.floor()
+    . Math.round()
+    . Math.trunc()
+    . .toFixed()
+
+    . Math.min()
+    . Math.max()
+
+    . Math.sign()
+    . Math.abs()
 
 
+    . Math.pow()
+    . Math.sqrt()
+    . Math.cbrt()
+    . Math.PI
+
+    . Math.random()
 
 
 
