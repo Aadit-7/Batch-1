@@ -1,0 +1,164 @@
+1. Functions in JavaScript
+
+   - Functions are reusable blocks of code.
+
+        Example:
+            function greet() {
+                console.log("Hello Aadit");
+            }
+            greet();
+
+    - With parameters:
+        function add(a, b) {
+        return a + b;
+        }
+
+        console.log(add(2, 3)); // 5
+
+
+2. Math functions
+
+    . Math.ceil()       12.1 = 13
+    . Math.floor()      12.9 = 12
+    . Math.round()      12.5 = 13
+    . Math.trunc()      12.54645 = 12
+    . .toFixed()        12.3254654(2) = 12.32
+
+    . Math.min()
+    . Math.max()
+
+    . Math.sign()
+    . Math.abs()
+
+    . Math.pow()
+    . Math.sqrt()
+    . Math.cbrt()
+    . Math.PI
+
+    . Math.random()
+
+
+3. Nominculture/ Rules
+
+    a. Variable/function Naming Rules
+
+        i. Allowed characters:
+            Letters (a–z, A–Z), digits (0–9), Underscore _, All special characters (@, #, $)
+
+        ii. Must NOT start with a number
+            ❌ 1name
+            ✅ name1
+
+        iii. No spaces allowed
+            ❌ user name
+            ✅ userName
+
+        iv. Case-sensitive
+            age ≠ Age
+
+        v. Cannot use reserved keywords
+            ❌ let, function, return,... so on
+
+
+    b. Different cases
+
+        i. camelCase
+
+            First word small, next words start with capital letter. No space between words
+
+            Example:
+                userName
+                totalAmount
+
+            Used for:
+                Variables, Functions
+
+        b. PascalCase
+
+            Every word starts with capital letter. No space between words
+
+            Example:
+                UserName
+                CalculateTotal
+
+            Used for:
+                Classes, Constructors, React Components
+
+        c. snake_case
+
+            Words separated by underscore "_" . No space between words
+
+            Example:
+                user_name
+                total_amount
+
+            Used for:
+                Mostly backend, databases
+
+        d. kebab-case
+
+            Words separated by hyphen "-" . No space between words
+
+            Example:
+                user-name
+                main-header
+
+            Used for:
+                File names, CSS classes
+
+        e. Uppercase
+        f. Lowercase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔥 Fresher Interview Questions (Very Important)
+
+1. What is the difference between == and ===?
+2. What is a function?
+3. What is the return keyword?
+4. What are operators in JavaScript?
+5. What is an if-else statement?
+6. What is the DOM?
+7. What is an event in JavaScript?
+8. What is the difference between function and variable?
+9. What is the use of return in functions?
+10. What is a parameter and argument?
+11. What is short-circuiting in logical operators?
+12. What happens if we don’t use return in a function?
+13. What is NaN in JavaScript?
+14. What is typeof operator?
+15. What is the difference between null, undefined, and NaN?
+
+
+
+🎯 Practice Tasks (Do These)
+
+1. Write a program to check if a number is even or odd
+2. Write a function to add two numbers
+3. Check if a number is greater than 50
+4. Print numbers from 1 to 10 using console.log
+5. Create a button and show alert on click
+
+
