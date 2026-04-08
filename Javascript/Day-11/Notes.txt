@@ -1,0 +1,160 @@
+1. String methods
+
+    1. .length
+        Gives number of characters
+
+        Example:
+            str.length
+
+    2. .toLowerCase()
+        Converts string to lowercase
+
+        Example:
+            str.toLowerCase()
+
+    3. .toUpperCase()
+        Converts string to uppercase
+
+    4. .trim()
+        Removes extra spaces from start and end
+
+    5. .charAt()
+        Gets character at specific index
+
+        Example:
+            str.charAt(0)
+
+    6. .indexOf()
+        Finds position of character
+
+    7. .includes()
+        Checks if value exists
+
+    8. .slice()
+        Extracts part of string
+
+        Example:
+            str.slice(1, 4)
+
+    9. .replace() , .replaceAll()
+        Replaces part of string
+
+    10. .split()
+        Converts string into array
+
+        Example:
+            str.split(" ")
+
+    11. String Concatination and template litreals
+
+
+2. Array methods
+
+    1. .push()
+        Adds element at the end of array
+
+        Example:
+            arr.push(10)
+
+    2. pop()
+        Removes last element
+
+        Example:
+            arr.pop()
+
+    3. shift()
+        Removes first element
+
+        Example:
+            arr.shift()
+
+    4. unshift()
+        Adds element at beginning
+
+        Example:
+            arr.unshift(5)
+
+    5. length
+        Gives total number of elements
+
+        Example:
+            arr.length
+
+    6. indexOf()
+        Finds index of element
+
+        Example:
+            arr.indexOf(10)
+
+    7. includes()
+        Checks if element exists
+
+        Example:
+            arr.includes(5)
+
+    8. slice()
+        Returns part of array (no change in original array)
+
+        Example:
+            arr.slice(1, 3)
+
+    9. splice()
+        Add/remove elements (changes original array)
+
+        Example:
+            arr.splice(1, 2)
+
+    10. join()
+        Converts array to string
+
+        Example:
+            arr.join("-")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔥 Fresher Interview Questions (Very Important)
+
+1. What is the difference between == and ===?
+2. What is a function?
+3. What is the return keyword?
+4. What are operators in JavaScript?
+5. What is an if-else statement?
+6. What is the DOM?
+7. What is an event in JavaScript?
+8. What is the difference between function and variable?
+9. What is the use of return in functions?
+10. What is a parameter and argument?
+11. What is short-circuiting in logical operators?
+12. What happens if we don’t use return in a function?
+13. What is NaN in JavaScript?
+14. What is typeof operator?
+15. What is the difference between null, undefined, and NaN?
+
+
+
+🎯 Practice Tasks (Do These)
+
+1. Write a program to check if a number is even or odd
+2. Write a function to add two numbers
+3. Check if a number is greater than 50
+4. Print numbers from 1 to 10 using console.log
+5. Create a button and show alert on click
+
+
