@@ -81,7 +81,7 @@ Important concept that is "return"
             };
 
 
-    3. Arrow Function (ES6)  
+    3. Arrow Function (ES6)
 
         const greet = () => {
         console.log("Hello!");
@@ -157,7 +157,7 @@ Important concept that is "return"
             );
 
 
-    5. map()
+    5. map() ***
         Creates a new array by transforming each element
 
         Example:
@@ -181,7 +181,7 @@ Important concept that is "return"
             console.log(arr2);
 
 
-    7. reduce()
+    7. reduce() *** 
         Reduces array to single value
 
         Example:
