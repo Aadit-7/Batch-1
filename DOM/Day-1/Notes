@@ -1,0 +1,104 @@
+JavaScript DOM
+
+    - What is DOM?
+
+        - DOM = Document Object Model
+        - It represents the HTML page as a tree structure
+        - JavaScript can use DOM to:
+        - Select elements
+        - Change content
+        - Handle events
+
+    In simple words:
+    DOM allows JavaScript to control HTML & CSS
+
+1.  Selecting Elements
+
+    a. getElementById
+        -  usSelect elementing `id`
+
+        Example:
+        let heading = document.getElementById("title");
+
+
+    b. querySelector
+        - Select first matching element
+
+        Example:
+        let para = document.querySelector(".text"); // class
+        let btn = document.querySelector("#btn"); // id
+        let h1 = document.querySelector("h1"); // tag
+
+
+    c. querySelectorAll
+        - Select multiple elements (NodeList)
+
+        Example:
+        let items = document.querySelectorAll(".item");
+
+
+2.  Changing Content
+
+    a. innerText
+        - Changes only text
+
+        Example:
+        heading.innerText = "Hello Aadit";
+
+    b. innerHTML
+        - Can add HTML inside element
+
+        Example:
+        heading.innerHTML = "<span>Hello</span>";
+
+    Difference:
+
+    `innerText` → text only
+    `innerHTML` → supports HTML
+
+
+3.  Changing Styles
+
+    heading.style.color = "red";
+    heading.style.backgroundColor = "yellow";
+
+
+4.  Events (Most Important)
+    - Syntax
+      element.addEventListener("event", function)
+
+    a. Click Event
+
+    Example:
+    let button = document.querySelector("#btn");
+
+        button.addEventListener("click", () => {
+        console.log("Button Clicked");
+        });
+
+    b. Accessing Input Value
+
+    Example:
+    let input = document.querySelector("#inputBox");
+    console.log(input.value);
+
+\*\* Small Example (Mini Project)
+
+    let button = document.querySelector("#btn");
+    let heading = document.querySelector("#title");
+
+    button.addEventListener("click", () => {
+    heading.innerText = "Text Changed!";
+    });
+
+
+    - DOM connects **HTML + JS**
+    - Always select element before using it
+    - Events make pages interactive
+    - `querySelector` is most used
+
+Homework
+
+    1. Change text on button click
+    2. Change color of text on click
+    3. Take input and display it in heading
