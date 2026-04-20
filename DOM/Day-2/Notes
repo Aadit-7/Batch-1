@@ -1,0 +1,83 @@
+4.  JavaScript Events
+    - What are Events?
+
+      Events are actions performed by the user or browser
+      JavaScript can respond to these actions
+
+    Example:
+    Click button
+    Type in input
+    Hover mouse
+    - How to Add Event
+      Syntax
+      element.addEventListener("event", function)
+
+    Common JavaScript Events
+    1.  Click Event
+
+        -Triggered when user clicks
+
+            let btn = document.querySelector("#btn");
+
+            btn.addEventListener("click", () => {
+            console.log("Button Clicked");
+            });
+
+    2.  Double Click Event (dblclick)
+
+        btn.addEventListener("dblclick", () => {
+        console.log("Double Clicked");
+        });
+
+    3.  Mouse Over (mouseover)
+        - When mouse enters element
+
+          btn.addEventListener("mouseover", () => {
+          console.log("Mouse Over");
+          });
+
+    4.  Mouse Out (mouseout)
+        - When mouse leaves element
+
+          btn.addEventListener("mouseout", () => {
+          console.log("Mouse Out");
+          });
+
+    5.  Keydown Event
+        - When key is pressed
+
+          document.addEventListener("keydown", (e) => {
+          console.log(e.key);
+          });
+
+    6.  Keyup Event
+        - When key is released
+
+          document.addEventListener("keyup", (e) => {
+          console.log("Key Released");
+          });
+
+    7.  Input Event
+        - When user types in input field
+
+          let input = document.querySelector("#input");
+
+          input.addEventListener("input", () => {
+          console.log(input.value);
+          });
+
+    8.  Change Event
+        - When input loses focus after change
+
+          input.addEventListener("change", () => {
+          console.log("Value Changed");
+          });
+
+    9.  Submit Event (Form)
+
+        let form = document.querySelector("form");
+
+        form.addEventListener("submit", (e) => {
+        e.preventDefault(); // stop page reload
+        console.log("Form Submitted");
+        });
