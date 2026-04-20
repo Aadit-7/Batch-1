@@ -14,39 +14,31 @@ JavaScript DOM
 
 1.  Selecting Elements
 
-    a. getElementById
-        -  usSelect elementing `id`
+    a. getElementById - usSelect elementing `id`
 
         Example:
         let heading = document.getElementById("title");
 
-
-    b. querySelector
-        - Select first matching element
+    b. querySelector - Select first matching element
 
         Example:
         let para = document.querySelector(".text"); // class
         let btn = document.querySelector("#btn"); // id
         let h1 = document.querySelector("h1"); // tag
 
-
-    c. querySelectorAll
-        - Select multiple elements (NodeList)
+    c. querySelectorAll - Select multiple elements (NodeList)
 
         Example:
         let items = document.querySelectorAll(".item");
 
-
 2.  Changing Content
 
-    a. innerText
-        - Changes only text
+    a. innerText - Changes only text
 
         Example:
         heading.innerText = "Hello Aadit";
 
-    b. innerHTML
-        - Can add HTML inside element
+    b. innerHTML - Can add HTML inside element
 
         Example:
         heading.innerHTML = "<span>Hello</span>";
@@ -56,49 +48,91 @@ JavaScript DOM
     `innerText` → text only
     `innerHTML` → supports HTML
 
-
 3.  Changing Styles
 
     heading.style.color = "red";
     heading.style.backgroundColor = "yellow";
 
+4.  JavaScript Events
+    - What are Events?
 
-4.  Events (Most Important)
-    - Syntax
+      Events are actions performed by the user or browser
+      JavaScript can respond to these actions
+
+    Example:
+    Click button
+    Type in input
+    Hover mouse
+    - How to Add Event
+      Syntax
       element.addEventListener("event", function)
 
-    a. Click Event
+    Common JavaScript Events
+    1.  Click Event
 
-    Example:
-    let button = document.querySelector("#btn");
+        -Triggered when user clicks
 
-        button.addEventListener("click", () => {
-        console.log("Button Clicked");
+            let btn = document.querySelector("#btn");
+
+            btn.addEventListener("click", () => {
+            console.log("Button Clicked");
+            });
+
+    2.  Double Click Event (dblclick)
+
+        btn.addEventListener("dblclick", () => {
+        console.log("Double Clicked");
         });
 
-    b. Accessing Input Value
+    3.  Mouse Over (mouseover)
+        - When mouse enters element
 
-    Example:
-    let input = document.querySelector("#inputBox");
-    console.log(input.value);
+          btn.addEventListener("mouseover", () => {
+          console.log("Mouse Over");
+          });
 
-\*\* Small Example (Mini Project)
+    4.  Mouse Out (mouseout)
+        - When mouse leaves element
 
-    let button = document.querySelector("#btn");
-    let heading = document.querySelector("#title");
+          btn.addEventListener("mouseout", () => {
+          console.log("Mouse Out");
+          });
 
-    button.addEventListener("click", () => {
-    heading.innerText = "Text Changed!";
-    });
+    5.  Keydown Event
+        - When key is pressed
 
+          document.addEventListener("keydown", (e) => {
+          console.log(e.key);
+          });
 
-    - DOM connects **HTML + JS**
-    - Always select element before using it
-    - Events make pages interactive
-    - `querySelector` is most used
+    6.  Keyup Event
+        - When key is released
 
-Homework
+          document.addEventListener("keyup", (e) => {
+          console.log("Key Released");
+          });
 
-    1. Change text on button click
-    2. Change color of text on click
-    3. Take input and display it in heading
+    7.  Input Event
+        - When user types in input field
+
+          let input = document.querySelector("#input");
+
+          input.addEventListener("input", () => {
+          console.log(input.value);
+          });
+
+    8.  Change Event
+        - When input loses focus after change
+
+          input.addEventListener("change", () => {
+          console.log("Value Changed");
+          });
+
+    9.  Submit Event (Form)
+
+        let form = document.querySelector("form");
+
+        form.addEventListener("submit", (e) => {
+        e.preventDefault(); // stop page reload
+        console.log("Form Submitted");
+        });
