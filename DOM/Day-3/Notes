@@ -1,0 +1,37 @@
+# Problem Statement – Live Text Preview (DOM Mini Project)
+
+Create a simple web page where a user can type something in an input box and see that text displayed instantly on the screen.
+
+---
+
+## Requirements
+
+1. There should be:
+   - One input box
+   - One heading (h1)
+   - One button (Clear)
+
+2. When the user types in the input box:
+   - The same text should appear in the heading in real-time
+
+3. When the user clicks the Clear button:
+   - The input box should become empty
+   - The heading should reset to default text
+     (Example: "Your text will appear here")
+
+## Example
+
+User types: `Hello`
+Output shows: `Hello`
+
+User clicks Clear
+Output resets
+
+---
+
+## Difficulty Level
+
+Beginner
+Perfect for practicing basic DOM concepts
+
+---
