@@ -1,59 +1,59 @@
-1. Create Elements
-   - Used to create new HTML elements using js
+// 1. Create Elements
+//    - Used to create new HTML elements using js
 
-   Example
-      let li = document.createElement("li");
-      li.innerText = "New Item";
-
-
-2. Add Elements to DOM
-
-   Example
-      let ul = document.querySelector("ul");
-      ul.appendChild(li);
+//    Example
+//       let li = document.createElement("li");
+//       li.innerText = "New Item";
 
 
-3. Remove Elements
+// 2. Add Elements to DOM
 
-   Example
-      li.remove();
-
-      OR
-
-      ul.removeChild(li);
+//    Example
+//       let ul = document.querySelector("ul");
+//       ul.appendChild(li);
 
 
-4. Class Manipulation
+// 3. Remove Elements
 
-   Example
-      li.classList.add("active");
-      li.classList.remove("active");
-      li.classList.toggle("active");
+//    Example
+//       li.remove();
 
+//       OR
 
-5. Event on Dynamic Elements
-
-
-li.addEventListener("click", () => {
-  console.log("Item clicked");
-});
+//       ul.removeChild(li);
 
 
-Mini Example
+// 4. Class Manipulation
+
+//    Example
+//       li.classList.add("active");
+//       li.classList.remove("active");
+//       li.classList.toggle("active");
 
 
-let button = document.querySelector("#btn");
-let ul = document.querySelector("ul");
-
-button.addEventListener("click", () => {
-  let li = document.createElement("li");
-  li.innerText = "New Task";
-
-  ul.appendChild(li);
-});
+// 5. Event on Dynamic Elements
 
 
-Click → New item added to list
+// li.addEventListener("click", () => {
+//   console.log("Item clicked");
+// });
+
+
+// Mini Example
+
+
+// let button = document.querySelector("#btn");
+// let ul = document.querySelector("ul");
+
+// button.addEventListener("click", () => {
+//   let li = document.createElement("li");
+//   li.innerText = "New Task";
+
+//   ul.appendChild(li);
+// });
+
+
+// Click → New item added to list
 
 
 
