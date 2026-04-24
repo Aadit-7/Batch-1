@@ -1,0 +1,55 @@
+What are Timing Functions?
+ Used to run code after some time or repeatedly
+
+
+1. setTimeout()
+
+    Runs code once after delay
+
+    setTimeout(() => {
+    console.log("Hello after 2 seconds");
+    }, 2000);
+
+    2000 = 2 seconds
+
+
+2. setInterval()
+
+    Runs code again and again after interval
+
+    setInterval(() => {
+    console.log("Running every 2 seconds");
+    }, 2000);
+
+
+3. clearTimeout()
+
+ Stops setTimeout
+
+    let id = setTimeout(() => {
+    console.log("Will not run");
+    }, 2000);
+
+    clearTimeout(id);
+
+        Example (Counter)
+
+            let count = 0;
+
+            let id = setInterval(() => {
+            count++;
+            console.log(count);
+
+            if (count === 5) {
+                clearInterval(id);
+            }
+            }, 1000);
+
+
+Important Points
+
+ `setTimeout` → runs once
+ `setInterval` → runs repeatedly
+ Time is in milliseconds
+ Always store id if you want to stop
+
