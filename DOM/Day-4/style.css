@@ -31,3 +31,19 @@ div {
   background-color: red;
   overflow: auto;
 }
+
+.btn {
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.btn2 {
+  background-color: blue;
+  padding: 5px 15px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
